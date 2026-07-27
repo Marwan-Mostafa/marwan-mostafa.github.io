@@ -11,15 +11,10 @@ const FILTER_ELEMENT_IDS = {
 const BOUND_DATASET_KEY = "filtersBound";
 
 export function setupFilters({
-
     onPerPageChange,
-
     onSortChange,
-
     onViewChange,
-
     onFilterToggle,
-
 } = {}) {
 
     bindFilterToggle(

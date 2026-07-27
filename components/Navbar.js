@@ -327,17 +327,9 @@ export function renderNavbar(activePage = "home") {
 
         <!-- Desktop Navigation -->
 
-        <nav
-          aria-label="Main navigation"
-        >
-          <ul
-            class="
-              hidden
-              items-center
-              gap-12
-              lg:flex
-            "
-          >
+        <nav aria-label="Main navigation">
+          <ul class="hidden items-center
+              gap-12 lg:flex">
             ${NAV_LINKS.map(renderDesktopLinkItem).join("")}
           </ul>
         </nav>
@@ -349,18 +341,12 @@ export function renderNavbar(activePage = "home") {
             flex
             items-center
             gap-3
-            md:gap-5
-          "
-        >
+            md:gap-5">
 
-          <ul
-            class="
-              flex
+          <ul class="flex
               items-center
               gap-2
-              md:gap-4
-            "
-          >
+              md:gap-4">
             ${ICON_LINKS.map(item => renderIconLink(item, activePage)).join("")}
           </ul>
 
@@ -385,13 +371,9 @@ export function renderNavbar(activePage = "home") {
               focus-visible:outline-none
               focus-visible:ring-2
               focus-visible:ring-(--primary)
-              md:hidden
-            "
-          >
-            <i
-              class="fa-solid fa-bars"
-              aria-hidden="true"
-            ></i>
+              md:hidden">
+            <i class="fa-solid fa-bars"
+              aria-hidden="true"></i>
           </button>
 
         </div>
