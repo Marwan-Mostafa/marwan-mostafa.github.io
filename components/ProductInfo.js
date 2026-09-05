@@ -162,9 +162,7 @@ export function ProductInfo(product) {
             id="decrease-qty"
             type="button"
             class="w-12 h-12 hover:bg-gray-100 transition cursor-pointer">
-
             −
-
           </button>
 
           <input
@@ -177,9 +175,7 @@ export function ProductInfo(product) {
             id="increase-qty"
             type="button"
             class="w-12 h-12 hover:bg-gray-100 transition cursor-pointer">
-
             +
-
           </button>
 
         </div>
@@ -199,13 +195,9 @@ export function ProductInfo(product) {
         <button
           id="compare-btn"
           class="px-8 h-12 rounded-xl border border-gray-300 hover:border-[#B88E2F] hover:text-[#B88E2F] cursor-pointer transition">
-
           + Compare
-
         </button>
-
       </div>
-
     </div>
   `;
 }
